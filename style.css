@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+p{
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+h1, h2, h3, h4{
+    color: hsl(210, 10%, 33%);
+}
+h1{
+    font-size: 2.55vw;
+    font-weight: 600;
+}
+h2{
+    font-size: 2.25vw;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.55vw;
+    font-weight: 600;
+}
+header, main{
+    margin-bottom: 25vh;
+}
+header p, #main5 p{
+    margin-bottom: 7vh;
+}
+#header-logo{
+    background-image: url("images/bg-header-desktop.png");
+    background-size: cover;
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-logo img{
+    margin-top: 8vh;
+}
+#header-conteudo{
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+#header-conteudo h1{
+    margin-top: -30px;
+}
+#main1 {
+    text-align: center;
+    max-width: 45vw;
+    margin: 0 auto;
+}
+#main2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 25vh;
+}
+#main2-img{
+    margin: 6%;
+    margin-left: -2%;
+}
+#main2-conteudo{
+    display: flex;
+    flex-direction: column;
+    max-width: 45vw;
+    gap: 8vh;
+}
+#main3{
+    text-align: center;
+}
+#main3-conteudo{
+    margin: 0 auto;
+    max-width: 45vw;
+}
+#main3 img{
+    margin: 6%;
+}
+#main4 {
+    text-align: center;
+    margin-bottom: 8vh;
+}
+#main4-header{
+    margin-bottom: 8vh;
+}
+#main4-conteudo{
+    display: flex;
+    justify-content: center;
+}
+#main4-conteudo div{
+    max-width: 26vw;
+}
+#main4-conteudo div img{
+    margin-bottom: 5vh
+}
+#main4-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    margin: 22vh 0;
+}
+#main5{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 45vw;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+    background: hsl(0, 0%, 96%);
+}
+#footer-img{
+    width: 3.5%;
+}
+#footer-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: row;
+    align-items: flex-start;
+    row-gap: 2.5vh;
+}
+#footer-conteudo h4{
+    flex-basis: 30%;
+}
+#footer-redes{
+    display: flex;
+    gap: 30%;
+}
+#button{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+.button1, .button2, .button3, .button4{
+    color: white;
+    border-radius: 30px;
+    padding: 1.7vh 1.7vw;
+    font-size: 18px;
+}
+.button1{
+    background: hsl(171, 66%, 44%);
+    border-bottom: hsl(171, 66%, 34%) solid 3px;
+    border-right: hsl(171, 66%, 34%) solid 1px;
+    border-left: hsl(171, 66%, 34%) solid 1px;
+    border-top: hsl(171, 66%, 34%) solid 1px;
+}
+.button2{
+    background: hsl(233, 100%, 69%);
+    border-bottom: hsl(233, 100%, 62%) solid 3px;
+    border-right: hsl(233, 100%, 62%) solid 1px;
+    border-left: hsl(233, 100%, 62%) solid 1px;
+    border-top: hsl(233, 100%, 62%) solid 1px;
+}
