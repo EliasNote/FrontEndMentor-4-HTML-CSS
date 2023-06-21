@@ -46,7 +46,7 @@ header p, #main5 p{
     text-align: center;
 }
 #header-conteudo h1{
-    margin-top: -30px;
+    margin-top: -1.953125vw;
 }
 #main1 {
     text-align: center;
@@ -142,21 +142,21 @@ footer{
 }
 .button1, .button2, .button3, .button4{
     color: white;
-    border-radius: 30px;
+    border-radius: 1.953125vw;
     padding: 1.7vh 1.7vw;
-    font-size: 18px;
+    font-size: 1.171875vw;
 }
 .button1{
     background: hsl(171, 66%, 44%);
-    border-bottom: hsl(171, 66%, 34%) solid 3px;
-    border-right: hsl(171, 66%, 34%) solid 1px;
-    border-left: hsl(171, 66%, 34%) solid 1px;
-    border-top: hsl(171, 66%, 34%) solid 1px;
+    border-bottom: hsl(171, 66%, 34%) solid 0.1953125vw;
+    border-right: hsl(171, 66%, 34%) solid 0.06510416666666667vw;
+    border-left: hsl(171, 66%, 34%) solid 0.06510416666666667vw;
+    border-top: hsl(171, 66%, 34%) solid 0.06510416666666667vw;
 }
 .button2{
     background: hsl(233, 100%, 69%);
-    border-bottom: hsl(233, 100%, 62%) solid 3px;
-    border-right: hsl(233, 100%, 62%) solid 1px;
-    border-left: hsl(233, 100%, 62%) solid 1px;
-    border-top: hsl(233, 100%, 62%) solid 1px;
+    border-bottom: hsl(233, 100%, 62%) solid 0.1953125vw;
+    border-right: hsl(233, 100%, 62%) solid 0.06510416666666667vw;
+    border-left: hsl(233, 100%, 62%) solid 0.06510416666666667vw;
+    border-top: hsl(233, 100%, 62%) solid 0.06510416666666667vw;
 }
