@@ -61,12 +61,12 @@ header p, #main5 p{
 }
 #main2-img{
     margin: 6%;
-    margin-left: -2%;
+    margin-left: -2vw;
 }
 #main2-conteudo{
     display: flex;
     flex-direction: column;
-    max-width: 45vw;
+    max-width: 25vw;
     gap: 8vh;
 }
 #main3{
