@@ -23,6 +23,9 @@ h3{
     font-size: 1.55vw;
     font-weight: 600;
 }
+h4{
+    font-size: 	1vw;
+}
 header, main{
     margin-bottom: 25vh;
 }
@@ -98,9 +101,8 @@ header p, #main5 p{
 }
 #main4-img{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
-    gap: 7vw;
     margin: 22vh 0;
 }
 #main5{
@@ -112,12 +114,9 @@ footer{
     display: flex;
     flex-direction: row;
     height: 20vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background: hsl(0, 0%, 96%);
-}
-#footer-img{
-    width: 3.5%;
 }
 #footer-conteudo{
     display: flex;
@@ -125,14 +124,17 @@ footer{
     width: 50%;
     flex-direction: row;
     align-items: flex-start;
-    row-gap: 2.5vh;
+    row-gap: 1vw;
 }
 #footer-conteudo h4{
-    flex-basis: 30%;
+    flex-basis: 15vw;
 }
 #footer-redes{
     display: flex;
-    gap: 30%;
+    gap: 2vw;
+}
+#footer-redes img{
+    width: 2vw;
 }
 #button{
     justify-content: center;
