@@ -117,8 +117,8 @@ header p, #main5 p{
 footer{
     display: flex;
     flex-direction: row;
-    height: 20vh;
     justify-content: space-evenly;
+    padding: 3vw;
     align-items: center;
     background: hsl(0, 0%, 96%);
 }
