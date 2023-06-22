@@ -41,10 +41,11 @@ header p, #main5 p{
     align-items: center;
 }
 #header-logo img{
+    width: 8vw;
     margin-top: 8vh;
 }
 #header-conteudo{
-    max-width: 40%;
+    max-width: 40vw;
     margin: 0 auto;
     text-align: center;
 }
@@ -63,6 +64,7 @@ header p, #main5 p{
     margin-bottom: 25vh;
 }
 #main2-img{
+    width: 50vw;
     margin: 6%;
     margin-left: -2vw;
 }
@@ -77,10 +79,11 @@ header p, #main5 p{
 }
 #main3-conteudo{
     margin: 0 auto;
-    max-width: 45vw;
+    max-width: 50vw;
 }
 #main3 img{
-    margin: 6%;
+    width: 65vw;
+    margin: 6% 0;
 }
 #main4 {
     text-align: center;
@@ -97,6 +100,7 @@ header p, #main5 p{
     max-width: 26vw;
 }
 #main4-conteudo div img{
+    width: 3vw;
     margin-bottom: 5vh
 }
 #main4-img{
