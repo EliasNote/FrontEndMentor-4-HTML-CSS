@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
     p{
         font-size: 	4.43vw;
         color: hsl(201, 11%, 66%);
@@ -180,7 +180,7 @@
         border-top: hsl(233, 100%, 62%) solid 1px;
     }
 }
-@media (min-width: 376px) {
+@media (min-width: 769px) {
     p{
         font-size: 	1.171875vw;
         color: hsl(201, 11%, 66%);
