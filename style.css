@@ -4,7 +4,183 @@
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-@media (min-width: 768px) {
+@media (max-width: 375px) {
+    p{
+        font-size: 	4.43vw;
+        color: hsl(201, 11%, 66%);
+    }
+    h1, h2, h3, h4{
+        color: hsl(210, 10%, 33%);
+    }
+    h1{
+        font-size: 8.5vw;
+        font-weight: 600;
+    }
+    h2{
+        font-size: 7.5vw;
+        font-weight: 600;
+    }
+    h3{
+        font-size: 6.5vw;
+        font-weight: 600;
+    }
+    h4{
+        font-size: 	5vw;
+    }
+    header{
+        margin-bottom: 25vh;
+    }
+    header p, #main5 p{
+        margin-bottom: 7vh;
+    }
+    #header-logo{
+        background-image: url("images/bg-header-mobile.png");
+        background-size: cover;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #header-conteudo{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -5vh;
+        max-width: 85vw;
+    }
+    #main1 {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 85vw;
+    }
+    #main2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25vh;
+    }
+    #main2-img {
+        max-width: 85vw;
+        margin: 15%;
+    }
+    #main2-conteudo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 8vh;
+        max-width: 85vw;
+    }
+    #main3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 6%;
+    }
+    #main3 img{
+        max-width: 85vw;
+        margin: 15%;
+    }
+    #main3-conteudo{
+        text-align: center;
+        max-width: 85vw;
+    }
+    #main4 {
+        display: flex;
+        flex-direction: column;
+        gap: 8vh;
+        max-width: 85vw;
+        margin: 0 auto;
+        margin-bottom: 25vh;
+    }
+    #main4-header{
+        text-align: center;
+        margin-bottom: 6%;
+    }
+    #main4-conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+        margin-bottom: 15vh;
+        max-width: 85vw;
+    }
+    #main4-conteudo div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #main4-conteudo div img{
+        margin-bottom: 5vh
+    }
+    #main4-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10vh;
+    }
+    #main4-img img {
+        width: 45%;
+    }
+    #main5 {
+        text-align: center;
+        max-width: 85vw;
+        margin: 0 auto;
+        margin-bottom: 25vh;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10vh;
+        align-items: center;
+        background: hsl(0, 0%, 96%);
+        max-height: 80vh;
+    }
+    footer img {
+        width: 15vw;
+    }
+    #footer-conteudo {
+        margin: 25% auto;
+        justify-content: space-between;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    #footer-redes {
+        display: flex;
+        gap: 10vw;
+    }
+    #footer-redes img{
+        width: 3.5vh;
+    }
+    #button{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .button1, .button2, .button3, .button4{
+        color: white;
+        border-radius: 5vh;
+        padding: 3.5vw 3.5vh;
+        font-size: 2.5vh;
+    }
+    .button1{
+        background: hsl(171, 66%, 44%);
+        border-bottom: hsl(171, 66%, 34%) solid 3px;
+        border-right: hsl(171, 66%, 34%) solid 1px;
+        border-left: hsl(171, 66%, 34%) solid 1px;
+        border-top: hsl(171, 66%, 34%) solid 1px;
+    }
+    .button2{
+        background: hsl(233, 100%, 69%);
+        border-bottom: hsl(233, 100%, 62%) solid 3px;
+        border-right: hsl(233, 100%, 62%) solid 1px;
+        border-left: hsl(233, 100%, 62%) solid 1px;
+        border-top: hsl(233, 100%, 62%) solid 1px;
+    }
+}
+@media (min-width: 376px) {
     p{
         font-size: 	1.171875vw;
         color: hsl(201, 11%, 66%);
